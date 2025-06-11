@@ -1,0 +1,74 @@
+### Core MATLAB Files ###
+*.asv          # MATLAB autosave files
+*.m~           # Editor backup files
+*.p            # Obfuscated MATLAB code
+*.mlapp        # MATLAB App Designer files
+*.mlappinstall # Installed app files
+*.mltbx        # Toolbox files
+*.mlpkginstall # Package installation files
+*.mlsettings   # MATLAB settings files
+*.prj          # Project files
+
+### Data & Binary Files ###
+*.mat          # MAT-files (comment out if you want to version control data)
+*.fig          # Figure files
+*.slxc         # Simulink cache files
+*.slxp         # Simulink protected model files
+*.mex*         # MEX files (platform-specific)
+
+### Cache & Temporary Files ###
+mlcache/       # MATLAB cache directory
+*.autosave     # Autosave files
+*.r20*         # Version-specific cache files
+simulinktmp/   # Simulink temporary directory
+sccprj/        # Source control project files
+*.slx.autosave # Simulink autosave files
+
+### Build & Deployment ###
+deploytool/    # Deployment output
+packages/      # Package directories
+*.ctf          # Compiled component
+*.exe          # Windows executable
+*.dll          # Windows dynamic library
+*.lib          # Static library
+*.exp          # Export files
+*.obj          # Object files
+*.o            # Object files (Unix)
+*.a            # Static libraries (Unix)
+*.so           # Shared objects (Unix)
+*.dylib        # macOS dynamic libraries
+
+### Simulink Files ###
+*.sldd         # Data dictionary
+*.slddc        # Data dictionary cache
+*.slmx         # Simulink model comparison
+*.slreqx       # Requirements file
+*.sltx         # Simulink test file
+*.slx          # Simulink model file
+
+### IDE & Editor ###
+.vscode/       # VS Code settings
+.idea/         # IntelliJ IDEA
+*.sublime-*    # Sublime Text
+*.swp          # Vim swap files
+*~             # Backup files
+*.bak          # Backup files
+
+### Version Control ###
+*.orig         # Merge conflict files
+*.rej          # Rejected patches
+
+### System Files ###
+.DS_Store      # macOS
+._*            # macOS
+Thumbs.db      # Windows
+Desktop.ini    # Windows
+*~             # Linux backup
+
+### Testing & Documentation ###
+coverage/      # Coverage reports
+*.cov          # Coverage data
+*.junit        # Test results
+*.tap          # Test results
+*.xml          # Test reports
+html/          # Generated documentation
