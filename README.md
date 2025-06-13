@@ -2,7 +2,7 @@
 
 A comprehensive MATLAB implementation for calculating and generating involute spline parameters according to **ISO 4156-1:2021** standard for straight cylindrical involute splines with metric module and side fit.
 
-![Spline Profile Example](https://img.shields.io/badge/MATLAB-R2018b+-blue?style=flat-square) ![ISO Standard](https://img.shields.io/badge/ISO-4156--1%3A2021-green?style=flat-square) ![License](https://img.shields.io/badge/License-MIT-orange?style=flat-square)
+![Spline Profile Example](https://img.shields.io/badge/MATLAB-R2018b+-blue?style=flat-square) ![ISO Standard](https://img.shields.io/badge/ISO-4156--1%3A2021-green?style=flat-square) ![Licence](https://img.shields.io/badge/Licence-MIT-orange?style=flat-square)
 
 ## 🔧 Features
 
@@ -11,7 +11,7 @@ A comprehensive MATLAB implementation for calculating and generating involute sp
 - **Tolerance Classes**: Full implementation of tolerance classes 4, 5, 6, and 7
 - **Root Types**: Both flat and fillet root configurations
 - **Profile Generation**: Parametric generation of involute tooth profiles
-- **Visualization**: Comprehensive plotting of spline profiles and geometry
+- **Visualisation**: Comprehensive plotting of spline profiles and geometry
 - **Batch Processing**: Calculate multiple spline configurations efficiently
 
 ## 📐 Supported Parameters
@@ -37,7 +37,7 @@ splineData = calculateInvoluteSpline();
 splineData = calculateInvoluteSpline('Module', 3, 'TeethCount', 24, ...
                                    'PressureAngle', 37.5, 'ToleranceClass', 6);
 
-% Generate spline profiles with visualization
+% Generate spline profiles with visualisation
 [profiles, splineData] = generateSplineProfile('Module', 2.5, 'TeethCount', 16, ...
                                               'PlotProfile', true);
 ```
@@ -96,12 +96,12 @@ The calculator returns a comprehensive structure containing:
 - **Manufacturing**: CNC programming, inspection planning
 - **Quality Control**: Tolerance verification, measurement setup
 - **Education**: Teaching involute spline geometry and standards
-- **Research**: Spline optimization and analysis
+- **Research**: Spline optimisation and analysis
 
 ## 📝 Functions
 
 ### `calculateInvoluteSpline()`
-Core calculation function implementing ISO 4156-1:2021 formulas.
+Core calculation function implementing ISO 4156-1:2021 formulae.
 
 **Parameters:**
 - `'Module'` - Module in mm
@@ -115,7 +115,7 @@ Core calculation function implementing ISO 4156-1:2021 formulas.
 - `'Verbose'` - Display results
 
 ### `generateSplineProfile()`
-Generates parametric involute tooth profiles for visualization and CAD export.
+Generates parametric involute tooth profiles for visualisation and CAD export.
 
 **Additional Parameters:**
 - `'ProfilePoints'` - Number of points per curve
@@ -137,7 +137,7 @@ Generates parametric involute tooth profiles for visualization and CAD export.
 
 ### Profile Generation
 - Parametric involute curves
-- Root fillet modeling
+- Root fillet modelling
 - Complete spline assembly generation
 
 ## 📋 Requirements
@@ -146,7 +146,7 @@ Generates parametric involute tooth profiles for visualization and CAD export.
 - **Toolboxes**: None required (uses base MATLAB only)
 - **Memory**: Minimal (< 10 MB for typical calculations)
 
-## 🎨 Visualization Features
+## 🎨 Visualisation Features
 
 The profile generator creates comprehensive plots including:
 - Single tooth profile comparisons
@@ -207,18 +207,18 @@ Contributions are welcome! Please feel free to submit issues, feature requests, 
 - Add test cases for new features
 - Validate against ISO standards
 
-## 📄 License
+## 📄 Licence
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licenced under the MIT Licence - see the [LICENCE](LICENCE) file for details.
 
 ## 👨‍💻 Author
 
 **Adil Wahab Bhatti**
 
-## 🙏 Acknowledgments
+## 🙏 Acknowledgements
 
 - ISO Technical Committee TC 96 for the comprehensive standard
-- MATLAB community for optimization suggestions
+- MATLAB community for optimisation suggestions
 - Industry colleagues for validation and testing
 
 ## 📈 Version History
@@ -226,7 +226,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### Version 2.0 (2025)
 - Complete rewrite with modular architecture
 - Added parametric profile generation
-- Comprehensive visualization features
+- Comprehensive visualisation features
 - Full ISO 4156-1:2021 compliance
 - Enhanced error handling and validation
 
