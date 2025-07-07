@@ -2,7 +2,9 @@
 
 A comprehensive MATLAB implementation for calculating and generating involute spline parameters according to **ISO 4156-1:2021** standard for straight cylindrical involute splines with metric module and side fit.
 
-![Spline Profile Example](https://img.shields.io/badge/MATLAB-R2018b+-blue?style=flat-square) ![ISO Standard](https://img.shields.io/badge/ISO-4156--1%3A2021-green?style=flat-square) ![Licence](https://img.shields.io/badge/Licence-MIT-orange?style=flat-square)
+[![Spline Profile Example](https://img.shields.io/badge/MATLAB-R2018b+-blue?style=flat-square)](https://www.mathworks.com/products/matlab.html)
+[![ISO Standard](https://img.shields.io/badge/ISO-4156--1%3A2021-green?style=flat-square)](https://www.iso.org/standard/79775.html)
+[![Licence](https://img.shields.io/badge/Licence-MIT-orange?style=flat-square)](LICENSE)
 
 ## 🔧 Features
 
