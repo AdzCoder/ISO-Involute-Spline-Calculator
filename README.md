@@ -240,3 +240,11 @@ This project is licenced under the MIT Licence - see the [LICENCE](LICENCE) file
 ---
 
 **Note**: This calculator implements the ISO 4156-1:2021 standard for educational and engineering purposes. Always verify critical calculations with official standards and consult qualified engineers for production applications.
+
+## Licence
+
+MIT Licence — see the [LICENCE](LICENSE) file for details.
+
+---
+
+*Developed by Adil Wahab Bhatti as part of academic coursework at the University of Warwick.*
